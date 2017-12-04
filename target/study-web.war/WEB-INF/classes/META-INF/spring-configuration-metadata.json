@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "myrocket.consumer",
+      "type": "com.cy.study.roketmq.consumer.RockerMQConsumerProperties",
+      "sourceType": "com.cy.study.roketmq.consumer.RockerMQConsumerProperties"
+    },
+    {
+      "name": "myrocket.producer",
+      "type": "com.cy.study.roketmq.producer.RocketMQProperties",
+      "sourceType": "com.cy.study.roketmq.producer.RocketMQProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "myrocket.consumer.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.study.roketmq.consumer.RockerMQConsumerProperties"
+    },
+    {
+      "name": "myrocket.consumer.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.study.roketmq.consumer.RockerMQConsumerProperties"
+    },
+    {
+      "name": "myrocket.producer.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.study.roketmq.producer.RocketMQProperties"
+    },
+    {
+      "name": "myrocket.producer.max-message-size",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.study.roketmq.producer.RocketMQProperties"
+    },
+    {
+      "name": "myrocket.producer.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.study.roketmq.producer.RocketMQProperties"
+    },
+    {
+      "name": "myrocket.producer.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.study.roketmq.producer.RocketMQProperties"
+    },
+    {
+      "name": "myrocket.producer.subscribe",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.study.roketmq.producer.RocketMQProperties"
+    }
+  ],
+  "hints": []
+}
